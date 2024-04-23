@@ -1,4 +1,48 @@
-.info .p-info {
+.header2 {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #032a4e;
+}
+
+.header2 h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff
+}
+.header2 img {
+    width: 35px;
+}
+.info-title {
+    width: 100%;
+    height: 25em;
+}
+.info-title .img-info {
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-title .img-info img {
+    width: 20em;
+    margin-top: 3em;
+}
+.modulo  {
+    width: 100%;
+    height: 10em;
     text-align: center;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    margin-top: 1em;
+}
+.modulo h3 {
+    font-size: 1.2em;
+    color: #032a4e;
+    font-weight: 500;
 }
