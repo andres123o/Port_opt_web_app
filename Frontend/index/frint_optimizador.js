@@ -19,7 +19,7 @@ botonNumeroActivos.addEventListener('click', () => {
     // Guardar la posición de ese PUNTO
     let posicion  = 1
     // Calculando el espacio que debe DESPLAZARSE el GRANDE
-    let operacion = posicion * -50
+    let operacion = posicion * -54
     console.log(operacion)
     // MOVEMOS el grand
     grande.style.transform = `translateX(${ operacion }%)`
