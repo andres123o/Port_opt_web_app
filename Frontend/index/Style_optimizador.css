@@ -67,11 +67,11 @@ body {
   }
   
 .carrousel2 .grande2 {
-    width: 300%;
+    width: 200%;
     height: 10em;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     transition: all 0.4s ease;
     border-radius: 1em;
@@ -79,7 +79,7 @@ body {
     transform: translateX(0%);
 }
 .sub-container-pregunta {
-    width: 50%;
+    width: 100%;
     height: 10em;
     background-color: #032a4e;
     border-radius: 1em;
@@ -113,7 +113,7 @@ body {
     margin-bottom: 1.2em;
 }
 .numero input {
-    width: 75%;
+    width: 55%;
     height: 2.3em;
     border: none;
     border-radius: 0.4em;
