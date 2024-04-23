@@ -57,21 +57,41 @@ body {
     height: 0.1em;
     background-color: #032a4e;
 }
-.pregunta-container {
+.carrousel2 {
     width: 100%;
-    height: 12em;
-    margin-top: 0.3em;
+    height: 14em;
+    max-width: 120em;
+    padding: 2em;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+  }
+  
+.carrousel2 .grande2 {
+    width: 300%;
+    height: 10em;
     display: flex;
-    justify-content: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
     align-items: center;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
 }
-.sub-container-preguntas {
-    width: 80%;
+.sub-container-pregunta {
+    width: 50%;
     height: 10em;
     background-color: #032a4e;
     border-radius: 1em;
     padding-top: 1em;
+    margin: 2em;
 }
+
+.container-inputs {
+    width: 100%;
+    height: 10em;
+}
+
 .pregunta {
     width: 100%;
     height: 20%;
@@ -93,11 +113,12 @@ body {
     margin-bottom: 1.2em;
 }
 .numero input {
-    width: 55%;
+    width: 75%;
     height: 2.3em;
     border: none;
     border-radius: 0.4em;
     padding-left: 0.6em;
+    outline: none;
 }
 .confirmar {
     width: 100%;
@@ -107,7 +128,7 @@ body {
     justify-content: center;
 }
 .confirmar div {
-    width: 40%;
+    width: 32%;
     height: 1.8em;
     background-color: rgb(12, 12, 201);
     text-align: center;
@@ -116,4 +137,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.confirmar div:active {
+    background-color: rgb(112, 112, 226);
 }
