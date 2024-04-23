@@ -1,5 +1,6 @@
-const grande    = document.querySelector('.grande')
-const punto     = document.querySelectorAll('.punto')
+const grande = document.querySelector('.grande')
+const punto = document.querySelectorAll('.punto')
+const botonUno = document.getElementById('boton-uno')
 
 // Cuando CLICK en punto
     // Saber la posición de ese punto
@@ -31,3 +32,6 @@ punto.forEach( ( cadaPunto , i )=> {
     })
 })
 
+botonUno.addEventListener('click', () => {
+    window.location.href = '/Frontend/index/opt.html'
+})
