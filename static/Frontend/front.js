@@ -33,5 +33,5 @@ punto.forEach( ( cadaPunto , i )=> {
 })
 
 botonUno.addEventListener('click', () => {
-    window.location.href = '/Frontend/index/opt.html'
+    window.location.href = '/static/Frontend/opt.html'
 })
